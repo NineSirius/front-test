@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Source Sans 3';
+    src: local('Source Sans 3 Regular'), local('SourceSans3-Regular'),
+        url('SourceSans3-Regular.woff2') format('woff2'),
+        url('SourceSans3-Regular.woff') format('woff'),
+        url('SourceSans3-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: local('Source Sans 3 SemiBold'), local('SourceSans3-SemiBold'),
+        url('SourceSans3-SemiBold.woff2') format('woff2'),
+        url('SourceSans3-SemiBold.woff') format('woff'),
+        url('SourceSans3-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
