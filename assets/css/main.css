@@ -86,7 +86,7 @@ p {
 
 .header {
     background: linear-gradient(90deg, #2f2f2f 0%, rgba(47, 47, 47, 0) 100%),
-        url("/assets/img/header-bg.png") no-repeat;
+        url("../img/header-bg.png") no-repeat;
     background-size: cover;
     min-height: 500px;
     padding-top: 100px;
@@ -308,7 +308,7 @@ p {
 
 .about_top {
     display: flex;
-    background: url("/assets/img/about-pic.png") no-repeat right;
+    background: url("../img/about-pic.png") no-repeat right;
     padding: 0;
 }
 
@@ -383,19 +383,19 @@ p {
 
 .services_card:nth-child(1) {
     background: linear-gradient(90deg, #2f2f2f 0%, rgba(85, 85, 85, 0) 100%),
-        url("/assets/img/services_pic1.png") no-repeat center / cover;
+        url("../img/services_pic1.png") no-repeat center / cover;
 }
 .services_card:nth-child(2) {
     background: linear-gradient(90deg, #2f2f2f 0%, rgba(85, 85, 85, 0) 100%),
-        url("/assets/img/services_pic2.png") no-repeat center / cover;
+        url("../img/services_pic2.png") no-repeat center / cover;
 }
 .services_card:nth-child(3) {
     background: linear-gradient(90deg, #2f2f2f 0%, rgba(85, 85, 85, 0) 100%),
-        url("/assets/img/services_pic3.png") no-repeat center / cover;
+        url("../img/services_pic3.png") no-repeat center / cover;
 }
 .services_card:nth-child(4) {
     background: linear-gradient(90deg, #2f2f2f 0%, rgba(85, 85, 85, 0) 100%),
-        url("/assets/img/services_pic4.png") no-repeat center / cover;
+        url("../img/services_pic4.png") no-repeat center / cover;
 }
 
 .partners {
@@ -446,7 +446,7 @@ p {
 .for_partners {
     padding: 35px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%),
-        url("/assets/img/for_partners.jpg") no-repeat center;
+        url("../img/for_partners.jpg") no-repeat center;
 }
 
 .for_partners_form {
