@@ -1,0 +1,13 @@
+:root {
+    --primary: #d2ab66;
+    --secondary: #fff;
+    --main-bg: #eeeff2;
+    --footer-bg: #231f20;
+
+    --card-bg: #fff;
+    --title-color: #231f20;
+    --text-color: #f5f5f5;
+    --hamburger: #000032;
+    --hamburger-active: #fff;
+    --backdrop-bg: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,184 @@
+@media screen and (max-width: 1000px) {
+    .about_content_desc {
+        max-width: 400px;
+    }
+    .footer_sitemap {
+        display: none;
+    }
+    .contacts_item {
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .for_partners_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .for_partners_form .button {
+        display: inline-flex;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about_content_desc {
+        max-width: 350px;
+    }
+
+    .hide-800 {
+        display: none;
+    }
+
+    .partners {
+        background: none;
+    }
+
+    .partners_about {
+        display: none;
+    }
+
+    .partner_logo {
+        background: #fff;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_top {
+        background: none;
+    }
+
+    .about_content {
+        width: 100%;
+        clip-path: none;
+        text-align: center;
+    }
+
+    .about_content_desc {
+        max-width: 100%;
+    }
+
+    .hide-700 {
+        display: none;
+    }
+    .nav {
+        gap: 40px;
+    }
+
+    .production_card .production_card_content {
+        transform: translateY(0);
+        gap: 5px;
+    }
+    .services_list {
+        grid-template-columns: 1fr;
+    }
+
+    .about_more_info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nav {
+        background-color: #fff;
+        padding: 0 10px;
+    }
+
+    .logo.light {
+        display: none;
+    }
+
+    .logo.dark {
+        display: inline-flex;
+    }
+
+    .nav .hamburger {
+        display: flex;
+    }
+
+    .nav.logo {
+        max-width: 80px;
+    }
+
+    .nav_link_wrap {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+        padding: 30px 10px;
+        background: #222;
+        transform: translateX(100%);
+        transition: 0.4s;
+        z-index: 11;
+        overflow-y: auto;
+    }
+
+    .nav_link_wrap.active {
+        transform: translateX(0);
+    }
+
+    .production_card {
+        max-width: 155px;
+    }
+
+    .partners {
+        margin-top: 40px;
+    }
+
+    .partners_list {
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+
+    .partner_logo {
+        min-width: 185px;
+        height: 110px;
+    }
+
+    .map {
+        margin-top: 40px;
+    }
+
+    .footer {
+        margin-top: 60px;
+        overflow: hidden;
+    }
+
+    .footer_about .footer_logo {
+        max-width: 300px;
+        position: absolute;
+        right: -5%;
+        top: 30px;
+        filter: opacity(0.2);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card_title {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+
+    .header_content h1 {
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+    }
+
+    .about_more_info .more_info_item p {
+        font-size: 0.75rem;
+    }
+}
