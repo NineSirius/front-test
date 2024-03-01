@@ -160,7 +160,7 @@ partners.forEach((partner) => {
     div.classList.add("partner_logo");
 
     const img = document.createElement("img");
-    img.src = `/assets/img/partners/${partner.logo}`;
+    img.src = `./assets/img/partners/${partner.logo}`;
 
     img.alt = partner.name;
 
